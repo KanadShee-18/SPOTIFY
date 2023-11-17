@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assests/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./Assests/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep updates on new episodes</p>
+                        <button class="badge">Browse Products</button>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes"></div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./Assests/backward_icon.png">
+                    <img src="./Assests/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-arrow-down"
+                            style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+
+            <h2 class="upperh2">Spotify Playlist</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assests/card1img.jpeg" class="card-image">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/peaceful piano.jpg" class="card-image">
+                    <p class="card-title">Peaceful Piano</p>
+                    <p class="card-info">Peaceful piano to help you slow...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Deep FOcus.jpeg" class="card-image">
+                    <p class="card-title">Deep Focus</p>
+                    <p class="card-info">Keep calm and focus with ambient...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Instrumental Study.jpeg" class="card-image">
+                    <p class="card-title">Instrumental Study</p>
+                    <p class="card-info">Focus with soft study music...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Focus flow.jpeg" class="card-image">
+                    <p class="card-title">Focus Flow</p>
+                    <p class="card-info">Uptempo instrumental hip hop beats</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/reading adventure.jpeg" class="card-image">
+                    <p class="card-title">Reading Adventure</p>
+                    <p class="card-info">Scores and soundtracks for... </p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Relaxing reading.jpeg" class="card-image">
+                    <p class="card-title">Relaxing Reading</p>
+                    <p class="card-info">Gentle instrumental music to help you...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assests/TTH.jpeg" class="card-image">
+                    <p class="card-title">Today's top hits</p>
+                    <p class="card-info">Taylor Swift is on top of the Hottest 50.</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/rap cavier.jpeg" class="card-image">
+                    <p class="card-title">Rap Cavier</p>
+                    <p class="card-info">New music from Lil Uzi Vert, Lil Tjay...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/All out.jpeg" class="card-image">
+                    <p class="card-title">All Out 2010s</p>
+                    <p class="card-info">The biggest songs of the 2010s.</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Rock Classics.jpeg" class="card-image">
+                    <p class="card-title">Rock Classics</p>
+                    <p class="card-info">Rock legends & epic songs that continue...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Viva latino.jpeg" class="card-image">
+                    <p class="card-title">Viva Latino</p>
+                    <p class="card-info">Today's top Latin hits, elevando nuestra...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/mmm.jpeg" class="card-image">
+                    <p class="card-title">Mega Hits Mix</p>
+                    <p class="card-info">A mega mix of 75 favorites from...</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Chill Hits.jpeg" class="card-image">
+                    <p class="card-title">Chill Hits</p>
+                    <p class="card-info">Kick back to the best new and...</p>
+                </div>
+            </div>
+
+            <h2>Featured Podcasts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./Assests/Indian noir.jpeg" class="card-image">
+                    <p class="card-title">Indian Noir</p>
+                    <p class="card-info">Nikesh Murali</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Mubi Podcast.jpeg" class="card-image">
+                    <p class="card-title">MUBI Podcast</p>
+                    <p class="card-info">MUBI</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Warm Fuzzy.jpeg" class="card-image">
+                    <p class="card-title">Warm & Fuzzy</p>
+                    <p class="card-info">Lee Flanaghan | Warm and Fuzzy</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Wine Blast.jpg" class="card-image">
+                    <p class="card-title">Wine Blast</p>
+                    <p class="card-info">Susie and Peter, Masters of Wine</p>
+                </div>
+                <div class="card">
+                    <img src="./Assests/Off the charts.jpeg" class="card-image">
+                    <p class="card-title">Off The Charts</p>
+                    <p class="card-info">Rukus Avenue Radio</p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="line">
+                    <p> &copy;All Rights Reserved </p>
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="./Homework Assests/album_picture.jpeg">
+                </div>
+                <div class="album-description">
+                    <p class="song">Daylight</p>
+                    <p class="singer" style="opacity: 0.7;">David Kushner</p>
+                </div>
+                <div class="album-icons">
+                    <img src="./Homework Assests/album_icon1.png" class="album-icon-control" style="height: 1.25rem;">
+                    <img src="./Homework Assests/album_icon2.png" class="album-icon-control" style="height: 2rem;">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="./Assests/player_icon1.png" class="player-control-icon">
+                    <img src="./Assests/player_icon2.png" class="player-control-icon">
+                    <img src="./Assests/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./Assests/player_icon4.png" class="player-control-icon">
+                    <img src="./Assests/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3.33</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="control-box">
+                    <img src="./Homework Assests/controls_icon1.png" class="control-icon" style="height: 2.25rem;">
+                    <img src="./Homework Assests/controls_icon2.png" class="control-icon" style="height: 2.25rem;">
+                    <img src="./Homework Assests/controls_icon3.png" class="control-icon biggy" style="height: 1.25rem;">
+                    <img src="./Homework Assests/controls_icon4.png" class="control-icon biggy" style="height: 1rem">
+                </div>
+                <div class="vol-bar">
+                    <img src="./Homework Assests/controls_icon5.png" class="control-icon vol-icon" style="height: 2.5rem;">
+                    <input type="range" min="0" max="100" step="1" class="audio-vol">
+                </div>
+                <div class="control-vol">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
